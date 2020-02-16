@@ -1,0 +1,10 @@
+Package: gdp
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Shaokang Yang
+Maintainer: The package maintainer <shaokang.yang@studenti.unimi.it>
+Description: The package maintainer <shaokang.yang@studenti.unimi.it>
+Description: This is a package to analyze the macroeconomics data for a country,basing on the data from Word Bank. It also plots the growth rate of 'BRICKS' countries.License: What license is it under?
+Encoding: UTF-8
+LazyData: true
