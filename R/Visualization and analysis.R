@@ -14,6 +14,7 @@ ggplot(DF, aes(year, NY.GDP.MKTP.KD.ZG, color=country))+
   labs(title = "Annual GDP Growth rate (%)")+ylab("")
 
 #Analyze the relationship between gdp growth rate and saving rate
+macrodata<-gdp('US')
 relation<-glm(macrodata[,11]~macrodata[,7])
 summary(relation)
 
